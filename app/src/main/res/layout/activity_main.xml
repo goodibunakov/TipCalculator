@@ -20,7 +20,6 @@
         android:id="@+id/amountEditText"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:hint="@string/enter_amount"
         android:digits="0123456789"
         android:maxLength="6"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -30,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/amountTextView"
+        android:hint="@string/enter_amount"
         android:layout_row="0"
         android:layout_column="0"
         android:layout_columnSpan="2"
@@ -40,12 +40,11 @@
         android:elevation="@dimen/elevation" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/percentTextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:hint="@string/tip_percentage"
+        android:text="@string/tip_percentage"
         android:layout_gravity="right|center_vertical" />
 
     <SeekBar
